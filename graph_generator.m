@@ -48,7 +48,7 @@ for i = 1:numValidFolders
     csvFiles = dir(fullfile(folderPath, '*.csv'));
     
     fig = figure; % Create a new figure for each folder
-    title(['Folder: ', validFolders(i).name]);
+    title(['Topology: ', validFolders(i).name]);
     xlabel('Epochs Trained');
     ylabel('Error');
     grid on; hold on;
